@@ -1,0 +1,9 @@
+#include <Adafruit_PWMServoDriver.h>      需要单独安装，可参考文件夹的库 
+#include <NTPClient.h>                	      需要单独安装，可参考文件夹的库 
+#include <Adafruit_GFX.h>                           需要单独安装，可参考文件夹的库 
+#include <Adafruit_SSD1306.h>                   需要单独安装，可参考文件夹的库 
+
+#include <ESP8266WiFi.h>                           通过首选项安装esp8266开发板   
+#include <WiFiUdp.h>                                  ESP8266WiFi的 库自带
+          
+#include <Wire.h>                     	      ARDUINO自带库
